@@ -2346,13 +2346,7 @@ blockquote {
   }
 }
 
-.blurry {
-  filter: blur(20px);
-  height: 100vh;
-}
-.blurry.sectioncolor {
-  filter: blur(0px);
-}
+
 
 #w-node-_6d461728-5ce2-415c-dac2-0707b584bf82-8c40f604 {
   -ms-grid-column: span 1;
