@@ -114,8 +114,8 @@ blockquote {
 }
 
 .small {
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 50px;
+  line-height: 54px;
   letter-spacing: 0px;
   text-decoration: none;
 }
@@ -1754,8 +1754,8 @@ blockquote {
 
 @media screen and (max-width: 991px) {
   .small {
-    font-size: 13px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 54px;
     margin-bottom: 50px;
   }
 
@@ -1870,8 +1870,8 @@ blockquote {
   }
 
   .small {
-    font-size: 13px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 54px;
     margin-bottom: 50px;
   }
 
@@ -2027,8 +2027,8 @@ blockquote {
   }
 
   .small {
-    font-size: 13px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 54px;
     margin-bottom: 50px;
   }
 
@@ -2346,7 +2346,17 @@ blockquote {
   }
 }
 
-
+.blurry {
+  filter: blur(20px);
+  height: 100vh;
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
+}
+.blurry.sectioncolor {
+  filter: blur(0px);
+}
 
 #w-node-_6d461728-5ce2-415c-dac2-0707b584bf82-8c40f604 {
   -ms-grid-column: span 1;
