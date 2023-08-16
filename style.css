@@ -114,8 +114,8 @@ blockquote {
 }
 
 .small {
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 33px;
+  line-height: 37px;
   letter-spacing: 0px;
   text-decoration: none;
 }
@@ -1470,18 +1470,15 @@ blockquote {
 }
 
 .projects {
-  display: -ms-grid;
-  display: grid;
-  max-width: 900px;
-  margin-top: 20px;
-  align-items: flex-start;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
+  display: flex;
+  min-width: 100%;
+  min-height: 200px;
+  overflow-x: auto;
+}
+
+.project-thumbnail {
+  min-width: 85%;
+  margin-right: 40px;
 }
 
 .projects._6 {
@@ -1754,8 +1751,8 @@ blockquote {
 
 @media screen and (max-width: 991px) {
   .small {
-    font-size: 28px;
-  line-height: 32px;
+    font-size: 33px;
+    line-height: 37px;
     margin-bottom: 50px;
   }
 
@@ -1870,8 +1867,8 @@ blockquote {
   }
 
   .small {
-    font-size: 28px;
-  line-height: 32px;
+    font-size: 33px;
+    line-height: 37px;
     margin-bottom: 50px;
   }
 
@@ -2027,8 +2024,8 @@ blockquote {
   }
 
   .small {
-    font-size: 28px;
-  line-height: 32px;
+    font-size: 33px;
+    line-height: 37px;
     margin-bottom: 50px;
   }
 
