@@ -1045,6 +1045,10 @@ blockquote {
   line-height: 70px;
   font-weight: 400;
   text-decoration: none;
+  color: rgb(255 255 255 / 50%);
+}
+.plain-text span {
+  color: #fff;
 }
 
 .plain-text.w--current {
