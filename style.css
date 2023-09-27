@@ -1005,6 +1005,7 @@ blockquote {
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  line-height: 1;
 }
 
 @keyframes gradient-animation {
